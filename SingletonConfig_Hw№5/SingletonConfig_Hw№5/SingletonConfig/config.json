@@ -1,0 +1,5 @@
+{
+  "Domain": "host",
+  "Port": 1111,
+  "StaticDirectoryPath": "public\\ltr"
+}
