@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameChat", "GameChat\GameChat.csproj", "{60A291E9-82EC-4AC2-8FE6-C65323C53744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameChat.Server", "GameChat.Server\GameChat.Server.csproj", "{0BBD73BE-ADA4-4FA4-8DDB-70274833884B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameChat.Client", "GameChat.Client\GameChat.Client.csproj", "{F7A1B4FF-2723-4BD5-B8AF-A28014E59381}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60A291E9-82EC-4AC2-8FE6-C65323C53744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A291E9-82EC-4AC2-8FE6-C65323C53744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A291E9-82EC-4AC2-8FE6-C65323C53744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A291E9-82EC-4AC2-8FE6-C65323C53744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BBD73BE-ADA4-4FA4-8DDB-70274833884B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBD73BE-ADA4-4FA4-8DDB-70274833884B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBD73BE-ADA4-4FA4-8DDB-70274833884B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBD73BE-ADA4-4FA4-8DDB-70274833884B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A1B4FF-2723-4BD5-B8AF-A28014E59381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A1B4FF-2723-4BD5-B8AF-A28014E59381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A1B4FF-2723-4BD5-B8AF-A28014E59381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A1B4FF-2723-4BD5-B8AF-A28014E59381}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
