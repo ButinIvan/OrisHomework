@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 250px;
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+.mainPage{
+    font-weight: bold;
+    color: black;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+}
+
+.sidebar nav ul li {
+    margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-weight: 550;
+}
+.sidebar nav ul li a:hover {
+    color: black;
+    font-size: 16px;
+}
+
+.bottom-links {
+    margin-top: auto;
+}
+
+.bottom-links a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-weight: 550;
+}
+.bottom-links a:hover {
+    color: black;
+}
+
+.logout {
+    color: red;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 250px; /* Даем место контенту */
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search {
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+}
+
+.user-photo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.brand {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 220px;
+    height: 150px;
+}
+
+.brand img {
+    width: 70px;
+    margin-top: 25px;
+}
+
+.cars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+    gap: 50px; /* отступы между карточками */
+    padding: 20px;
+    margin-left: 18px;
+}
+
+
+.car-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.car-card img {
+    width: 275px; /* Ширина изображений в карточках */
+    max-height: 150px;
+    object-fit: contain; /* Чтобы изображения не искажались */
+    margin-bottom: 10px;
+}
+
+.recommend {
+    font-size: 14px;
+    color: gray;
+}
+
+.car-card h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+
+@media (max-width: 768px) {
+    .cars {
+        grid-template-columns: repeat(2, 1fr); /* 2 колонки на экранах меньше 768px */
+    }
+}
+
+@media (max-width: 480px) {
+    .cars {
+        grid-template-columns: 1fr; /* 1 колонка на мобильных устройствах */
+    }
+}
